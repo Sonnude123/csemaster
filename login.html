@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Trường đại học Thủy Lợi - TLU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item">
+                <input type="text" value="Tìm kiếm">
+            </li>
+          </ul>
+
+          <img id="logo" src="anh/logo.jpg" alt="">
+    </header>
+
+    <nav>
+        <div id="btn-nav">
+                <button type="button" class="btn btn-primary">Trang chủ</button>
+                <button type="button" class="btn btn-secondary">Giới thiệu</button>
+                <button type="button" class="btn btn-success">Nghiên cứu khoa học</button>
+                <button type="button" class="btn btn-danger">Đào tạo</button>
+                <button type="button" class="btn btn-warning">Bộ môn - Trung tâm</button>
+                <button type="button" class="btn btn-info">Sinh viên</button>
+                <button type="button" class="btn btn-light">Tin tức</button>
+                <button type="button" class="btn btn-dark">Thông báo</button>
+                <button type="button" class="btn btn-link">Liên hệ</button>
+        </div>
+    </nav>
+    <br>
+    <section>
+        <form method="POST" action="php/login.php">
+            <div class="form-group">
+              <label for="user">Username</label>
+              <input type="text" class="form-control" id="txtUsername" name="txtUsername" placeholder="Nhập username">
+              <small id="emailHelp" class="form-text text-muted">Chúng tôi sẽ không chia sẻ thông tin với bất kỳ ai!</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="txtPassword" name="txtPassword" placeholder="Nhập password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </section>
+
+    <footer>
+        <table cellspacing="10">
+            <tr>
+                <td><a class="chuFooter" href="#">Giới thiệu</a></td>
+                <td><a class="chuFooter" href="#">Đào tạo</a></td>
+                <td><a class="chuFooter" href="#">Nghiên cứu khoa học</a></td>
+                <td><a class="chuFooter" href="#">Công nghệ phần mềm</a></td>
+            </tr>
+
+            <tr>
+                <td><a class="chuFooter" href="#">Logo của khoa CNTT</a></td>
+                <td><a class="chuFooter" href="#">Mô hình đào tạo</a></td>
+                <td><a class="chuFooter" href="#">Thông tin seminar</a></td>
+                <td><a class="chuFooter" href="#">Hệ thống thông tin</a></td>
+            </tr>
+
+            <tr>
+                <td><a class="chuFooter" href="#">Lời chào mừng</a></td>
+                <td><a class="chuFooter" href="#">Đào tạo đại học</a></td>
+                <td><a class="chuFooter" href="#">Các đề tài, dự án</a></td>
+                <td><a class="chuFooter" href="#">Khoa học máy tính</a></td>
+            </tr>
+
+            <tr>
+                <td><a class="chuFooter" href="#">Tổ chức</a></td>
+                <td><a class="chuFooter" href="#">Định hướng ngành nghề</a></td>
+                <td><a class="chuFooter" href="#">Công trình công bố</a></td>
+                <td><a class="chuFooter" href="#">Kỹ thuật máy tính và mạng</a></td>
+            </tr>
+
+            <tr>
+                <td><a class="chuFooter" href="#">Hợp tác liên kết</a></td>
+                <td><a class="chuFooter" href="#">Đào tạo sau đại học</a></td>
+                <td><a class="chuFooter" href="#">Các phòng thí nghiệm</a></td>
+                <td><a class="chuFooter" href="#">Toán học</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#"></a></td>
+                <td><a href="#"></a></td>
+                <td><a href="#"></a></td>
+                <td><a class="chuFooter" href="#">Trung tâm tin học</a></td>
+            </tr>
+        </table>
+
+        
+        <table>
+            <tr>
+                <td>© 2017 Khoa Công nghệ thông tin - Đại học Thủy lợi</td>
+            </tr>
+            <tr>
+                <td>Địa chỉ: nhà C1, Đại học Thủy lợi, 175 Tây Sơn, Đống Đa, Hà Nội. Điện thoại: (+84)-024 3 5632211. Email: vpkcntt@tlu.edu.vn</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

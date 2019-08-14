@@ -1,0 +1,22 @@
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#btn-nav{
+    text-align: center;
+}
+footer{
+    background-color: blue;
+    color: white;
+}
+.footer{
+    display: flex;
+}
+.chuFooter{
+    color: white;
+}
+table{
+    vertical-align: middle;
+    margin: 0 auto;
+}
